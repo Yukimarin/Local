@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container" id="register-form">
+      <h2>Đăng Nhập</h2>
+      <form id="login-form">
+        <div>
+          <label for="username">Username</label>
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="Tên đăng nhập"
+            required
+          />
+        </div>
+        <div>
+          <label for="username">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Mật khẩu"
+            required
+          />
+        </div>
+        <button type="submit">Đăng Nhập</button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>
